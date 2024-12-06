@@ -1,16 +1,13 @@
 package edu.grinnell.csc207.experiments;
 
-import edu.grinnell.csc207.util.BrailleAsciiTables;
-
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
-import java.io.IOException;
 import java.io.PrintWriter;
+
+import edu.grinnell.csc207.util.BrailleAsciiTables;
 
 /**
  * Some experiments with the Braille-Ascii Tables.
  *
- * @author Your Name Here
+ * @author Sal Karki
  * @author Samuel A. Rebelsky
  */
 public class BATableExperiments {
@@ -22,7 +19,7 @@ public class BATableExperiments {
    * Run our experiments.
    *
    * @param args
-   *   Command-line arguments (ignored).
+   * Command-line arguments (ignored).
    */
   public static void main(String[] args) {
     PrintWriter pen = new PrintWriter(System.out, true);
@@ -67,8 +64,6 @@ public class BATableExperiments {
             + e.getMessage());
       } // try/catch
     } // for
-    
     pen.close();
   } // main(String[])
-
 } // class BitTreeExperiments

@@ -1,16 +1,15 @@
 package edu.grinnell.csc207.experiments;
 
-import edu.grinnell.csc207.util.BitTree;
-
 import java.io.ByteArrayInputStream;
-import java.io.InputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.PrintWriter;
+
+import edu.grinnell.csc207.util.BitTree;
 
 /**
  * Some experiments with Bit Trees.
- *
- * @author Your Name Here
+ * @author Sal Karki
  * @author Samuel A. Rebelsky
  */
 public class BitTreeExperiments {
@@ -171,10 +170,8 @@ public class BitTreeExperiments {
    */
   public static void main(String[] args) {
     PrintWriter pen = new PrintWriter(System.out, true);
-
     experiment01(pen);
     experiment02(pen);
-    
     pen.close();
   } // main(String[])
 
